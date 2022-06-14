@@ -12,6 +12,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    color: #1b1b1b;
 }
 
 
@@ -26,13 +27,14 @@ body{
 }
 
 .navigation{
-    /* justify-content: center;*/
     align-items: center;
     display: flex;
     width: 1000px;
+    flex: 10 0 auto;
     margin:auto;
     justify-content: space-between;
 }
+
 
 .navi-logo {
     display: flex;
@@ -62,6 +64,7 @@ body{
     line-height: 80%;
     margin-bottom: 0px;
 }
+
 .top-text p{
     margin-top: 10px;
 }
@@ -80,6 +83,40 @@ button {
    width: 400px;
 }
 
+h2 {
+    font-family: 'Signika', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content.photo{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.photo-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.photo-grid-item {
+    max-width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.photo-grid-item img {
+    width: 200px;
+    height: 200px;
+    border: 0px solid #D0C9C0;
+    border-radius: 30px;
+    object-fit: cover;
+}
 
 
 
