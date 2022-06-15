@@ -76,8 +76,41 @@ button {
     padding: 5px 10px;
     font-size: 16px;
     color: #e5e7eb;
+    width: 150px;
+    height:fit-content;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
+button:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.content.quote {
+    background-color: #E5E7EB;
+    padding: 70px 30%;
+    margin: 100px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.quotee{
+    display:block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
 
 .bigimg {
    width: 400px;
@@ -119,17 +152,28 @@ h2 {
 }
 
 
+.content.signup {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.content.signup h3,p {
+    margin: 0;
+}
 
 
-
-
-
-
-
-
-
-
-
+.content.signup button{
+    border: 2px solid white;
+}
 
 
 .logo {
@@ -152,4 +196,24 @@ ul {
     margin: 10px;
     gap: 20px;
     list-style: none;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    background-color: #1F2937;
+    padding: 50px 0;
+    margin-top: 100px;
+    color:#e5e7eb
+}
+
+.footer img {
+    mask-image: #e5e7eb;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+small a{
+    font-size: 12px;
 }
